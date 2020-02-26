@@ -1,0 +1,21 @@
+{%extends 'layout.html'%}
+
+{% block body %}
+
+{% from 'includes/_formhelpers.html' import render_field %}
+
+<div class="jumbotron">
+  <h2>Selección de parámetros</h2>
+  <p>Aquí puede seleccionar el número de nodos, número de colores y número de generaciones
+    que cómo máximo el algoritmo debe iterar. Tenga en cuenta que a mayor número de generaciones,
+    mayor consumo de tiempo computacional supondrá.</p>
+  <form action="" method='POST'>
+    <div class="form-group">
+    {{render_field(form.search, class_="form-control")}}
+    </div>
+    <input type="submit" class="btn btn-primary" value="Enviar">
+  </form>
+</div>
+
+{% endblock %}
+

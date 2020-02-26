@@ -1,0 +1,457 @@
+ <!DOCTYPE html><html lang="es"><head><script type="text/javascript" language="javascript" src="https://e00-ue.uecdn.es/cookies/js/policy_v3.js"></script>
+<script>var UE=UE||{};UE.GFC={porcentajeUsuarios:10,mostrarGFC:null,randomTest:function(o){var t=100*Math.random();return console.log("GFC random number: "+t),t<o},init:function(){if(new RegExp("https?://(www.marca.com(/claro-mx|/en)?|(us|co|ar).marca.com/claro)/$").test(window.location.origin+window.location.pathname))console.log("GFC in homepage"),this.mostrarGFC=!1;else{var t,o="mostrarGFC_resultado_"+this.porcentajeUsuarios;try{t=window.localStorage.getItem(o)}catch(o){t=null}if(t)this.mostrarGFC="true"==t;else{this.mostrarGFC=this.randomTest(this.porcentajeUsuarios);try{window.localStorage.setItem(o,this.mostrarGFC)}catch(o){}}}window.googlefc=window.googlefc||{},googlefc.controlledMessagingFunction=function(o){console.log("GFC show message: "+window.UE.GFC.mostrarGFC),1==window.UE.GFC.mostrarGFC&&"function"==typeof envioSC&&envioSC("mostrarGFC"),window.UE.GFC.mostrarGFC?o.proceed(!0):o.proceed(!1)}}},UE.GFC.init();</script>
+<script async src="https://contributor.google.com/scripts/390bb73beea1e4b2/loader.js"></script><script>(function(){'use strict';var g=function(a){var b=0;return function(){return b<a.length?{done:!1,value:a[b++]}:{done:!0}}},l=this||self,aa=/^[\w+/_-]+[=]{0,2}$/,m=null,p=function(){},q=function(a){var b=typeof a;if("object"==b)if(a){if(a instanceof Array)return"array";if(a instanceof Object)return b;var c=Object.prototype.toString.call(a);if("[object Window]"==c)return"object";if("[object Array]"==c||"number"==typeof a.length&&"undefined"!=typeof a.splice&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("splice"))return"array";if("[object Function]"==c||"undefined"!=typeof a.call&&"undefined"!=typeof a.propertyIsEnumerable&&!a.propertyIsEnumerable("call"))return"function"}else return"null";else if("function"==b&&"undefined"==typeof a.call)return"object";return b},r=Date.now||function(){return+new Date},t=function(a,b){function c(){}c.prototype=b.prototype;a.prototype=new c;a.prototype.constructor=a};var ba=function(a,b){Object.defineProperty(l,a,{configurable:!1,get:function(){return b},set:p})};var x=function(a,b){this.b=a===v&&b||"";this.a=w},w={},v={};var ca=function(a,b){a.src=b instanceof x&&b.constructor===x&&b.a===w?b.b:"type_error:TrustedResourceUrl";if(null===m)b:{b=l.document;if((b=b.querySelector&&b.querySelector("script[nonce]"))&&(b=b.nonce||b.getAttribute("nonce"))&&aa.test(b)){m=b;break b}m=""}b=m;b&&a.setAttribute("nonce",b)};var y=function(){return Math.floor(2147483648*Math.random()).toString(36)+Math.abs(Math.floor(2147483648*Math.random())^r()).toString(36)};var z=function(a,b){b=String(b);"application/xhtml+xml"===a.contentType&&(b=b.toLowerCase());return a.createElement(b)},A=function(a){this.a=a||l.document||document};A.prototype.appendChild=function(a,b){a.appendChild(b)};var B=function(a,b,c,d,e,f){try{var k=a.a,h=z(a.a,"SCRIPT");h.async=!0;ca(h,b);k.head.appendChild(h);h.addEventListener("load",function(){e();d&&k.head.removeChild(h)});h.addEventListener("error",function(){0<c?B(a,b,c-1,d,e,f):(d&&k.head.removeChild(h),f())})}catch(n){f()}};var da=l.atob("aHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vaW1hZ2VzL2ljb25zL21hdGVyaWFsL3N5c3RlbS8xeC93YXJuaW5nX2FtYmVyXzI0ZHAucG5n"),ea=l.atob("WW91IGFyZSBzZWVpbmcgdGhpcyBtZXNzYWdlIGJlY2F1c2UgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlIGlzIGludGVyZmVyaW5nIHdpdGggdGhpcyBwYWdlLg=="),fa=l.atob("RGlzYWJsZSBhbnkgYWQgb3Igc2NyaXB0IGJsb2NraW5nIHNvZnR3YXJlLCB0aGVuIHJlbG9hZCB0aGlzIHBhZ2Uu"),ha=function(a,b,c){this.b=a;this.f=new A(this.b);this.a=null;this.c=[];this.g=!1;this.i=b;this.h=c},E=function(a){if(a.b.body&&!a.g){var b=function(){C(a);l.setTimeout(function(){return D(a,3)},50)};B(a.f,a.i,2,!0,function(){l[a.h]||b()},b);a.g=!0}},C=function(a){for(var b=F(1,5),c=0;c<b;c++){var d=G(a);a.b.body.appendChild(d);a.c.push(d)}b=G(a);b.style.bottom="0";b.style.left="0";b.style.position="fixed";b.style.width=F(100,110).toString()+"%";b.style.zIndex=F(2147483544,2147483644).toString();b.style["background-color"]=H(249,259,242,252,219,229);b.style["box-shadow"]="0 0 12px #888";b.style.color=H(0,10,0,10,0,10);b.style.display="flex";b.style["justify-content"]="center";b.style["font-family"]="Roboto, Arial";c=G(a);c.style.width=F(80,85).toString()+"%";c.style.maxWidth=F(750,775).toString()+"px";c.style.margin="24px";c.style.display="flex";c.style["align-items"]="flex-start";c.style["justify-content"]="center";d=z(a.f.a,"IMG");d.className=y();d.src=da;d.style.height="24px";d.style.width="24px";d.style["padding-right"]="16px";var e=G(a),f=G(a);f.style["font-weight"]="bold";f.textContent=ea;var k=G(a);k.textContent=fa;I(a,e,f);I(a,e,k);I(a,c,d);I(a,c,e);I(a,b,c);a.a=b;a.b.body.appendChild(a.a);b=F(1,5);for(c=0;c<b;c++)d=G(a),a.b.body.appendChild(d),a.c.push(d)},I=function(a,b,c){for(var d=F(1,5),e=0;e<d;e++){var f=G(a);b.appendChild(f)}b.appendChild(c);c=F(1,5);for(d=0;d<c;d++)e=G(a),b.appendChild(e)},F=function(a,b){return Math.floor(a+Math.random()*(b-a))},H=function(a,b,c,d,e,f){return"rgb("+F(Math.max(a,0),Math.min(b,255)).toString()+","+F(Math.max(c,0),Math.min(d,255)).toString()+","+F(Math.max(e,0),Math.min(f,255)).toString()+")"},G=function(a){a=z(a.f.a,"DIV");a.className=y();return a},D=function(a,b){0>=b||null!=a.a&&0!=a.a.offsetHeight&&0!=a.a.offsetWidth||(ia(a),C(a),l.setTimeout(function(){return D(a,b-1)},50))},ia=function(a){var b=a.c;var c="undefined"!=typeof Symbol&&Symbol.iterator&&b[Symbol.iterator];b=c?c.call(b):{next:g(b)};for(c=b.next();!c.done;c=b.next())(c=c.value)&&c.parentNode&&c.parentNode.removeChild(c);a.c=[];(b=a.a)&&b.parentNode&&b.parentNode.removeChild(b);a.a=null};var ka=function(a,b,c,d,e){var f=ja(c),k=function(n){n.appendChild(f);l.setTimeout(function(){f?(0!==f.offsetHeight&&0!==f.offsetWidth?b():a(),f.parentNode&&f.parentNode.removeChild(f)):a()},d)},h=function(n){document.body?k(document.body):0<n?l.setTimeout(function(){h(n-1)},e):b()};h(3)},ja=function(a){var b=document.createElement("div");b.className=a;b.style.width="1px";b.style.height="1px";b.style.position="absolute";b.style.left="-10000px";b.style.top="-10000px";b.style.zIndex="-10000";return b};var J={},K=null;var L=function(){},M="function"==typeof Uint8Array,N=function(a,b){a.b=null;b||(b=[]);a.j=void 0;a.f=-1;a.a=b;a:{if(b=a.a.length){--b;var c=a.a[b];if(!(null===c||"object"!=typeof c||"array"==q(c)||M&&c instanceof Uint8Array)){a.g=b-a.f;a.c=c;break a}}a.g=Number.MAX_VALUE}a.i={}},O=[],P=function(a,b){if(b<a.g){b+=a.f;var c=a.a[b];return c===O?a.a[b]=[]:c}if(a.c)return c=a.c[b],c===O?a.c[b]=[]:c},Q=function(a,b,c){if(b<a.g)a.a[b+a.f]=c;else{var d=a.g+a.f;a.a[d]||(a.c=a.a[d]={});a.c[b]=c}return a},S=function(a,b){var c=R;a.b||(a.b={});if(!a.b[b]){var d=P(a,b);d&&(a.b[b]=new c(d))}return a.b[b]};L.prototype.h=M?function(){var a=Uint8Array.prototype.toJSON;Uint8Array.prototype.toJSON=function(){var b;void 0===b&&(b=0);if(!K){K={};for(var c="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789".split(""),d=["+/=","+/","-_=","-_.","-_"],e=0;5>e;e++){var f=c.concat(d[e].split(""));J[e]=f;for(var k=0;k<f.length;k++){var h=f[k];void 0===K[h]&&(K[h]=k)}}}b=J[b];c=[];for(d=0;d<this.length;d+=3){var n=this[d],u=(e=d+1<this.length)?this[d+1]:0;h=(f=d+2<this.length)?this[d+2]:0;k=n>>2;n=(n&3)<<4|u>>4;u=(u&15)<<2|h>>6;h&=63;f||(h=64,e||(u=64));c.push(b[k],b[n],b[u]||"",b[h]||"")}return c.join("")};try{return JSON.stringify(this.a&&this.a,T)}finally{Uint8Array.prototype.toJSON=a}}:function(){return JSON.stringify(this.a&&this.a,T)};var T=function(a,b){return"number"!=typeof b||!isNaN(b)&&Infinity!==b&&-Infinity!==b?b:String(b)};L.prototype.toString=function(){return this.a.toString()};var R=function(a){N(this,a)};t(R,L);var U=function(a){N(this,a)};t(U,L);var la=function(a,b){this.c=new A(a);var c=S(b,5);c=new x(v,P(c,4)||"");this.b=new ha(a,c,P(b,4));this.a=b},ma=function(a,b,c,d){b=new R(b?JSON.parse(b):null);b=new x(v,P(b,4)||"");B(a.c,b,3,!1,c,function(){ka(function(){E(a.b);d(!1)},function(){d(!0)},P(a.a,2),P(a.a,3),P(a.a,1))})};var na=function(a,b){V(a,"internal_api_load_with_sb",function(c,d,e){ma(b,c,d,e)});V(a,"internal_api_sb",function(){E(b.b)})},V=function(a,b,c){a=l.btoa(a+b);ba(a,c)},W=function(a,b,c){for(var d=[],e=2;e<arguments.length;++e)d[e-2]=arguments[e];e=l.btoa(a+b);e=l[e];if("function"==q(e))e.apply(null,d);else throw Error("API not exported.");};var X=function(a){N(this,a)};t(X,L);var Y=function(a){var b=this.h=l.document;var c=new U;var d=P(a,3);c=Q(c,1,d);d=P(a,12);c=Q(c,2,d);d=P(a,5);c=Q(c,3,d);d=P(a,10);c=Q(c,4,d);d=S(a,11);c.b||(c.b={});var e=d?d.a:d;c.b[5]=d;c=Q(c,5,e);this.g=new la(b,c);this.a=P(a,1);this.f=S(a,2);this.c=!1;this.b=a};Y.prototype.start=function(){try{oa(),na(this.a,this.g),l.googlefc=l.googlefc||{},"callbackQueue"in l.googlefc||(l.googlefc.callbackQueue=[]),pa(this)}catch(a){W(this.a,"internal_api_sb")}};var oa=function(){var a=function(){if(!l.frames.googlefcPresent)if(document.body){var b=document.createElement("iframe");b.style.display="none";b.style.width="0px";b.style.height="0px";b.style.border="none";b.style.zIndex="-1000";b.style.left="-1000px";b.style.top="-1000px";b.name="googlefcPresent";document.body.appendChild(b)}else l.setTimeout(a,5)};a()},pa=function(a){var b=r();W(a.a,"internal_api_load_with_sb",a.f.h(),function(){var c;var d=a.a,e=l[l.btoa(d+"cached_js")];if(e){e=l.atob(e);e=parseInt(e,10);d=l.btoa(d+"cached_js").split(".");var f=l;d[0]in f||"undefined"==typeof f.execScript||f.execScript("var "+d[0]);for(;d.length&&(c=d.shift());)d.length?f[c]&&f[c]!==Object.prototype[c]?f=f[c]:f=f[c]={}:f[c]=null;c=Math.abs(b-e);c=1728E5>c?0:c}else c=-1;0!=c&&(W(a.a,"internal_api_sb"),Z(a,P(a.b,9)))},function(c){c?Z(a,P(a.b,7)):Z(a,P(a.b,8))})},Z=function(a,b){a.c||(a.c=!0,a=new l.XMLHttpRequest,a.open("GET",b,!0),a.send())};(function(a,b){l[a]=function(c){for(var d=[],e=0;e<arguments.length;++e)d[e-0]=arguments[e];l[a]=p;b.apply(null,d)}})("__475an521in8a__",function(a){"function"==typeof l.atob&&(a=l.atob(a),a=new X(a?JSON.parse(a):null),(new Y(a)).start())});}).call(this);window.__475an521in8a__("WyIzOTBiYjczYmVlYTFlNGIyIixbbnVsbCxudWxsLG51bGwsImh0dHBzOi8vZnVuZGluZ2Nob2ljZXNtZXNzYWdlcy5nb29nbGUuY29tL2YvQUdTS1d4VkJrY3JzdmFYeGpINnUxSU9BS1pkMEF5ZEFkdWppZzJFZG5pUDNCbXdRVE9POEd3SXFHanUySms1SmdmemJMU1gxSkllZENZWGZBWHZCMjg5NHF0VVx1MDAzZCJdCiwyMCxudWxsLDEwMCxudWxsLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9sL0FHU0tXeFZDTFprekUxdFJYczlZM2taR3JIZlRIUjdSV3BFOXFmLUpNUlZxeGhKbGFQY0dmTDdQaFpFT2M2SGdYRDRjSjJtX0Z5QVdZdEQzbVFJbDVPOV8/YWJcdTAwM2QxIiwiaHR0cHM6Ly9mdW5kaW5nY2hvaWNlc21lc3NhZ2VzLmdvb2dsZS5jb20vbC9BR1NLV3hWZmFNV2pQdWVwOURPTGh5bXlaekFwb3luRGtoQkRteVpEU1piMG92clk2R1JfUGZtaWMxUVRZeldSTmhmaVBDYTh0MzZwWWdnWVBPS3lkZXpRP2FiXHUwMDNkMlx1MDAyNnNiZlx1MDAzZDEiLCJodHRwczovL2Z1bmRpbmdjaG9pY2VzbWVzc2FnZXMuZ29vZ2xlLmNvbS9sL0FHU0tXeFhkZGxNbUdTd0FlQzVJMnNjNnRfVUxFWkNMU0FrUGF3N1ltTmFjWVQtcDN6bEUxdHppcnFuWE1kbVpRaEhoZE8wc1RtVUdYeEhlVjJPSTVMRUg/c2JmXHUwMDNkMiIsIk16a3dZbUkzTTJKbFpXRXhaVFJpTWdcdTAwM2RcdTAwM2QiLFtudWxsLG51bGwsbnVsbCwiaHR0cHM6Ly93d3cuZ3N0YXRpYy5jb20vMGVtbi9mL3AvMzkwYmI3M2JlZWExZTRiMi5qcz91c3FwXHUwMDNkQ0FnIl0KLCJkaXYtZ3B0LWFkIl0K");</script>
+<script type="text/javascript" src="https://sdk.privacy-center.org/loader.js" data-key="03f1af55-a479-4c1f-891a-7481345171ce" id="spcloader" async></script>
+<script>var gptadslots=[],googletag=googletag||{};googletag.cmd=googletag.cmd||[]</script>
+<script src="//e00-elmundo.uecdn.es/js/1475575201_marca.js"></script>
+<script type='text/javascript'>function loadFreemium(){if("undefined"!=typeof frm&&null!=frm&&"function"==typeof frm)frm();else{var e=document.createElement("script");e.async=!0,e.type="text/javascript";var t="https:"==document.location.protocol;e.src=(t?"https:":"http:")+"//e00-elmundo.uecdn.es/js/1475575201_marca.js";var r=document.getElementsByTagName("script")[0];r.parentNode.insertBefore(e,r),frm()};clearTimeout(secFrm)}var secFrm=setTimeout(function(){loadFreemium()},5e3);</script>
+<script type='text/javascript'>function initAdServer(){loadFreemium()}</script>
+<script type='text/javascript' async>var pbjs=pbjs||{};pbjs.que=pbjs.que||[];(function(){var e=document.createElement("script");e.type="text/javascript",e.async=!0,e.src="//e00-elmundo.uecdn.es/js/pbma.js";var t=document.getElementsByTagName("head")[0];t.insertBefore(e,t.firstChild)})()</script>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-15"/><meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1"/><title data-ue-c="innerHTML" data-ue-u="title">Final NFL: Shakira y Jennifer Lopez, pasi�n latina en el descanso de la Super Bowl - Jennifer Lopez y Shakira, las dos divas de la... | MARCA.com</title><meta data-ue-u="description" name="description" content="ca latina fueron las encargadas de poner el espect�culo en el descanso de la Super Bowl LIV con un concierto expr�s lleno de adrenalina y sensualidad."/><meta data-ue-u="keywords" name="keywords" content=",NFL,Polideportivo,Fotogaler�as,Buzz"/><meta data-ue-u="news_keywords" name="news_keywords" content=",NFL,Polideportivo,Fotogaler�as,Buzz"/><!-- ##IBEXCLU --><link Href="https://www.marca.com/nfl/album/2020/02/03/5e3779ff22601d6a618b457d.html" data-ue-c="href" data-ue-u="canonical" rel="canonical"/><link rel="amphtml" Href="https://amp.marca.com/nfl/album/2020/02/03/5e3779ff22601d6a618b457d.html"><!-- ##FBEXCLU --><meta name="robots" content="index,follow"/><meta name="theme-color" content="#CC0000"><meta name="organization" content="Unidad Editorial Informaci�n Deportiva S.L.U"/><meta name="DC.date.issued" content="2020-02-03T04:28:24Z"><meta name="date" content="2020-02-03T01:41:32Z"/><meta property="article:published_time" content="2020-02-03T01:41:32Z"/><meta property="article:modified_time" content="2020-02-03T04:28:24Z"/><meta property="article:section" content="Nfl"/><meta property="article:tag" content="NFL"/><meta property="article:tag" content="Polideportivo"/><meta property="article:tag" content="Fotogaler�as"/><meta property="article:tag" content="Buzz"/><meta name="twitter:site" content="@"/><meta name="twitter:creator" content="@"/><meta name="twitter:image0:src" content="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/03/15806936917252.jpg"/><meta name="twitter:image1:src" content="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/03/15806936911874.jpg"/><meta name="twitter:image2:src" content="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/03/15806936900535.jpg"/><meta name="twitter:image3:src" content="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/03/15806947875921.jpg"/><meta data-ue-u="twitter:title" name="twitter:title" content="Final NFL: Shakira y Jennifer Lopez, pasi�n latina en el descanso de la Super Bowl"/><meta data-ue-u="twitter:description" name="twitter:description" content="Jennifer Lopez y Shakira, las dos divas de la m�sica latina fueron las encargadas de poner el espect�culo en el descanso de la Super Bowl LIV con un concierto expr�s lleno de adrenalina y sensualidad."/><meta data-ue-u="og:image" property="og:image" content="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/03/15806947875921.jpg"/><meta name="twitter:card" content="gallery"/><meta data-ue-u="twitter:image" name="twitter:image" content="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/02/03/15806947875921.jpg"/><meta property="og:type" content="article"/><meta property="og:site_name" content="MARCA.com"/><meta property="fb:app_id" content="160427764002568"/><link href="https://e00-marca.uecdn.es/rss/portada.xml" rel="alternate" type="application/rss+xml" title="RSS Portada - Marca.com"/><link href="https://e00-marca.uecdn.es/rss/nfl.xml" rel="alternate" type="application/rss+xml" title="RSS de nfl - Marca.com"/><meta name="referrer" content="unsafe-url"><link rel="shortcut icon" type="image/ico" Href="https://www.marca.com/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" Href="https://www.marca.com/favicon_32x32.png"><link rel="icon" type="image/png" sizes="96x96" Href="https://www.marca.com/favicon_96x96.png"><link rel="apple-touch-icon-precomposed" sizes="180x180" Href="https://www.marca.com/apple-touch-icon-precomposed.png"><link rel="stylesheet" type="text/css" href="https://e00-marca.uecdn.es/assets/v16/css/react-image-gallery/core-image-gallery--marca_desktop.css"><script async=true src='https://e00-marca.uecdn.es/assets/uelogin/v1/ueLogin.b87cb78584072ad340ef.js' charset='utf-8'></script>
+<script type="text/javascript" src="https://e00-marca.uecdn.es/assets/v16/js/jquery.2.2.1.js"></script><script type="text/javascript" src="https://e00-marca.uecdn.es/assets/v16/js/ue-utils.js"></script><!--[if IE 8]><script type="text/javascript" src="https://e00-marca.uecdn.es/assets/v16/js/html5.js"></script><script type="text/javascript" src="https://e00-marca.uecdn.es/assets/v16/js/jquery.ie8.js"></script><![endif]--><script type="text/javascript">!function(a9,a,p,s,t,A,g){if(a[a9])return;function q(c,r){a[a9]._Q.push([c,r])}a[a9]={init:function(){q("i",arguments)},fetchBids:function(){q("f",arguments)},setDisplayBids:function(){},targetingKeys:function(){return[]},_Q:[]};A=p.createElement(s);A.async=!0;A.src=t;g=p.getElementsByTagName(s)[0];g.parentNode.insertBefore(A,g)}("apstag",window,document,"script","//c.amazon-adsystem.com/aax2/apstag.js")</script>
+<script src="//assets.adobedtm.com/73515ad8d49a3d35d5aa6bc81b535d3a8761d99c/satelliteLib-43269810dc56b0fa3684a8c690c1353d9585cd0f.js"></script>
+</head><body class=" "><div id="pixelcontabilizacionmarca" class="pixelcontabilizacion" style="position:absolute;top:0px;left:0px;width:1px;height:1px;z-Index:1"><img src="https://pixelcounter.marca.com/pixelcontabilizacion/pixelcontabilizacion.gifctl?r=https%3A%2F%2Fwww%2Emarca%2Ecom%2Fnfl%2Falbum%2F2020%2F02%2F03%2F5e3779ff22601d6a618b457d%2Ehtml&amp;s=marca&amp;d=XjiaJQoAASwAAAAwvGU" width="1" height="1" alt="" /><script type="text/javascript">function DM_prepClient(csid,client){var cat=document.location.href.split('/');url_section=cat[6];client.DM_addEncToLoc("as_section",url_section);}</script></div>
+<script type="text/javascript">
+var cdn_cookies=function(){var e=location.hostname,o="; "+document.cookie,t={"www.marca.com":{cookieName:["MARCA_idusr","UE_pref", "MARCA_edition"]},"videos.marca.com":{cookieName:["MARCA_idusr","UE_pref"],destinationHost:"www.marca.com"}};if(t[e])for(i=0;i<t[e].cookieName.length;i++)if(o.split("; "+t[e].cookieName[i]+"=").length<2){var n=document.createElement("img"),s=location.hostname;t[e].destinationHost&&(s=t[e].destinationHost),n.alt=" ",n.style="display:none;position:absolute;top:0px;left:0px;width:1px;height:1px;z-Index:1",n.src="//"+s+"/ue-cdn/services/cdn_cookie_service.html";var c=document.body.firstChild;c.parentNode.insertBefore(n,c);break}};cdn_cookies();
+</script><div class="lightbox_shadow no-visible" id="js-popup"></div><script>var nav_continua_active=true;</script>
+<script type="text/javascript">var cookieList=document.cookie.split(';');cookieList.forEach(function(item){if(typeof item=="string"&&item.indexOf("REGMARCA")!=-1){var ifr_seed=document.createElement("iframe");ifr_seed.src="https://5214106.fls.doubleclick.net/activityi;src=5214106;type=corp;cat=regis00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord="+Math.random()*1000000000000+"?";ifr_seed.width="1";ifr_seed.height="1";ifr_seed.style.display="none";ifr_seed.setAttribute("frameborder","0");var node=document.body.getElementsByTagName("script")[0];node.parentNode.insertBefore(ifr_seed,node);}});</script><noscript><iframe src="https://5214106.fls.doubleclick.net/activityi;src=5214106;type=corp;cat=regis00;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=1?" width="1" height="1" frameborder="0" style="display:none"></iframe></noscript><script type="text/javascript">
+
+    var IsAPSEnabled = true;
+
+    
+window.Adomik = window.Adomik || {};
+Adomik.randomAdGroup = function() {
+    var rand = Math.random();
+    switch (false) {
+        case !(rand < 0.09): return "ad_ex" + (Math.floor(100 * rand));
+        case !(rand < 0.10): return "ad_bc";
+        default: return "ad_opt";
+    }
+};
+
+window.ueUserContentGoogle = (function() {
+    if (!window || !window.ueCookiesPolicy || typeof window.ueCookiesPolicy.isAccepted != 'function') {
+        console.warn('Module ueCookiesPolicy not exists.')
+        return false
+    }
+    var googleAccepted =  ueCookiesPolicy.isAccepted({vendors: 'google'})
+    if(googleAccepted === null) { googleAccepted = undefined }
+    return googleAccepted
+}());
+var data = {"networkId":"99071977","divId":"div-gpt-ad-nfl_a","customTargeting":{},"adSlots":[{"adUnit":"mc2/nfl/a","customTargeting":{"p":["f"]}},{"adUnit":"mc2/nfl/a","sizes":[[729,90],[729,250],[971,90],[971,250],[981,90],[981,180],[981,250],[981,220],[991,90],[991,250],[1,1]],"customTargeting":{"p":["m"]}},{"adUnit":"mc2/nfl/a","sizes":[[300,100],[300,250],[300,300],[300,600],[1,1]],"customTargeting":{"p":["r"]}},{"adUnit":"mc2/nfl/a","sizes":[[121,600],[161,600],[121,1000],[161,1000],[1,1]],"customTargeting":{"p":["si"]}},{"adUnit":"mc2/nfl/a","sizes":[[121,600],[161,600],[121,1001],[161,1001],[1,1]],"customTargeting":{"p":["sd"]}}]};
+var sizeConfig=[{mediaQuery:"(min-width: 1024px)",sizesSupported:[[728,90],[970,90],[970,250],[980,90],[980,250],[990,250]],labels:["mega-desktop"]},{mediaQuery:"(min-width: 0px) and (max-width: 1023px)",sizesSupported:[[320,50],[320,53],[320,100]],labels:["mega-phone"]},{mediaQuery:"(min-width: 1024px)",sizesSupported:[[300,250],[300,300]],labels:["roba2-desktop"]},{mediaQuery:"(min-width: 0px) and (max-width: 1023px)",sizesSupported:[[300,250],[300,300]],labels:["roba2-phone"]},{mediaQuery:"(min-width: 1024px)",sizesSupported:[[300,250]],labels:["roba1-desktop"]},{mediaQuery:"(min-width: 0px) and (max-width: 1023px)",sizesSupported:[[300,250]],labels:["roba1-phone"]},{mediaQuery:"(min-width: 1024px)",sizesSupported:[[300,250],[300,300]],labels:["roba3-desktop"]},{mediaQuery:"(min-width: 0px) and (max-width: 1023px)",sizesSupported:[[300,250],[300,300],[300,600]],labels:["roba3-phone"]}];
+var adUnits=[{labelAny:["mega-desktop"],code:"div-gpt-ad-LDB1",mediaTypes:{banner:{sizes:[[728,90],[970,90],[970,250],[980,90],[980,250],[990,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595052"}},{bidder:"rubicon",params:{zoneId:663036,siteId:142576,accountId:15366,position:"atf"}},{bidder:"criteo",params:{zoneId:788297}},{bidder:"smartadserver",params:{pageId:648549,formatId:54639,siteId:99913,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:["8S3jMWeEhh","8fTLJJL0iQ"],supplyType:"site"}}]},{labelAny:["mega-desktop"],code:"div-gpt-ad-LDB2",mediaTypes:{banner:{sizes:[[728,90],[970,90],[970,250],[980,90],[980,250],[990,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595053"}},{bidder:"rubicon",params:{zoneId:663040,siteId:142576,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:788298}},{bidder:"smartadserver",params:{pageId:648549,formatId:54640,siteId:99913,domain:"https://prg.smartadserver.com"}}]},{labelAny:["roba3-desktop"],code:"div-gpt-ad-MPU1",mediaTypes:{banner:{sizes:[[300,250],[300,300],[300,600]]}},bids:[{bidder:"appnexus",params:{placementId:"11595057"}},{bidder:"rubicon",params:{zoneId:663050,siteId:142576,accountId:15366,position:"atf"}},{bidder:"criteo",params:{zoneId:788301}},{bidder:"smartadserver",params:{pageId:648549,formatId:40859,siteId:99913,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"463Y4dJxIO",supplyType:"site"}}]},{labelAny:["roba1-desktop"],code:"div-gpt-ad-MPU2",mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595058"}},{bidder:"rubicon",params:{zoneId:663056,siteId:142576,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:788302}},{bidder:"smartadserver",params:{pageId:648549,formatId:40974,siteId:99913,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"TyBOAyqBxU",supplyType:"site"}}]},{labelAny:["roba2-desktop"],code:"div-gpt-ad-MPU3",mediaTypes:{banner:{sizes:[[300,250],[300,300]]}},bids:[{bidder:"appnexus",params:{placementId:"11595059"}},{bidder:"rubicon",params:{zoneId:663058,siteId:142576,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792342}},{bidder:"smartadserver",params:{pageId:648549,formatId:40975,siteId:99913,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"0oOTDrARgE",supplyType:"site"}}]},{labelAny:["roba1-desktop"],code:"div-gpt-ad-MPU4",mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595060"}},{bidder:"rubicon",params:{zoneId:663060,siteId:142576,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792344}},{bidder:"smartadserver",params:{pageId:648549,formatId:40976,siteId:99913,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"0DAxyDNUb7",supplyType:"site"}}]},{labelAny:["roba1-desktop"],code:"div-gpt-ad-MPU5",mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595061"}},{bidder:"rubicon",params:{zoneId:663062,siteId:142576,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792346}},{bidder:"smartadserver",params:{pageId:648549,formatId:40977,siteId:99913,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"LYTomdyjXa",supplyType:"site"}}]},{labelAny:["mega-phone"],code:"div-gpt-ad-LDB1",mediaTypes:{banner:{sizes:[[320,50],[320,53],[320,100]]}},bids:[{bidder:"appnexus",params:{placementId:"11595040"}},{bidder:"rubicon",params:{zoneId:663146,siteId:142592,accountId:15366,position:"atf"}},{bidder:"criteo",params:{zoneId:788327}},{bidder:"smartadserver",params:{pageId:648550,formatId:54723,siteId:99914,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"1b3RqFswab",supplyType:"site"}}]},{labelAny:["mega-phone"],code:"div-gpt-ad-LDB2",mediaTypes:{banner:{sizes:[[320,50],[320,53],[320,100]]}},bids:[{bidder:"appnexus",params:{placementId:"11595041"}},{bidder:"rubicon",params:{zoneId:663148,siteId:142592,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:788328}},{bidder:"smartadserver",params:{pageId:648550,formatId:54724,siteId:99914,domain:"https://prg.smartadserver.com"}}]},{labelAny:["roba3-phone"],code:"div-gpt-ad-MPU1",mediaTypes:{banner:{sizes:[[300,250],[300,300],[300,600]]}},bids:[{bidder:"appnexus",params:{placementId:"11595043"}},{bidder:"rubicon",params:{zoneId:663156,siteId:142592,accountId:15366,position:"atf"}},{bidder:"criteo",params:{zoneId:788330}},{bidder:"smartadserver",params:{pageId:648550,formatId:40859,siteId:99914,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"0kP4lrpE8z",supplyType:"site"}}]},{labelAny:["roba1-phone"],code:"div-gpt-ad-MPU2",mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595044"}},{bidder:"rubicon",params:{zoneId:663158,siteId:142592,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792377}},{bidder:"smartadserver",params:{pageId:648550,formatId:40974,siteId:99914,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"1LKWJIrbol",supplyType:"site"}}]},{labelAny:["roba2-phone"],code:"div-gpt-ad-MPU3",mediaTypes:{banner:{sizes:[[300,250],[300,300]]}},bids:[{bidder:"appnexus",params:{placementId:"11595045"}},{bidder:"rubicon",params:{zoneId:663160,siteId:142592,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792378}},{bidder:"smartadserver",params:{pageId:648550,formatId:40975,siteId:99914,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"iurpCvTfUe",supplyType:"site"}}]},{labelAny:["roba1-phone"],code:"div-gpt-ad-MPU4",mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595046"}},{bidder:"rubicon",params:{zoneId:663162,siteId:142592,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792380}},{bidder:"smartadserver",params:{pageId:648550,formatId:40976,siteId:99914,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"cZ9A3ZJ2RG",supplyType:"site"}}]},{labelAny:["roba1-phone"],code:"div-gpt-ad-MPU5",mediaTypes:{banner:{sizes:[[300,250]]}},bids:[{bidder:"appnexus",params:{placementId:"11595047"}},{bidder:"rubicon",params:{zoneId:663164,siteId:142592,accountId:15366,position:"btf"}},{bidder:"criteo",params:{zoneId:792381}},{bidder:"smartadserver",params:{pageId:648550,formatId:40977,siteId:99914,domain:"https://prg.smartadserver.com"}},{bidder:"richaudience",params:{pid:"1DNkkF4ivh",supplyType:"site"}}]}];var adUnits_nc = JSON.parse(JSON.stringify(adUnits));
+var map = {
+	'div-gpt-ad-LDB1' : 'm',
+	'div-gpt-ad-LDB2' : 'mb',
+	'div-gpt-ad-MPU1' : 'r',
+	'div-gpt-ad-MPU2' : 'rb',
+	'div-gpt-ad-MPU3' : 'rc',
+	'div-gpt-ad-MPU4' : 'rd',
+	'div-gpt-ad-MPU5' : 're',
+};
+
+adUnits.forEach(function(item) {
+	if (item.code in map) {
+		item.code = data.divId + '_' + map[item.code] + '_5e3779ff22601d6a618b457d';
+	}
+});
+
+if (typeof pbjs !== 'undefined') {
+		pbjs.que.push(function() {
+
+		pbjs.enableAnalytics([{
+			 provider: "appnexus",
+			 options: {
+				 memberId: 7669
+			 }
+		}]);
+
+		pbjs.setConfig({
+			priceGranularity: "dense",
+			enableSendAllBids: true,
+			consentManagement: {
+				cmpApi: 'iab',
+				timeout: 8000,
+				allowAuctionWithoutConsent: true
+			},
+			sizeConfig: sizeConfig
+        });
+        		
+		pbjs.addAdUnits(adUnits);
+
+		pbjs.requestBids({
+			timeout: 1000,
+			bidsBackHandler: function () {
+				initAdServer();
+			}
+		});
+	});
+}
+
+    googletag.cmd.push(function () {
+        data.customTargeting.t = ['nfl'];
+data.customTargeting.tag = ['nfl,polideportivo,fotogalerias,buzz'];
+data.customTargeting.newsid = ['5e3779ff22601d6a618b457d'];
+
+function getNotLazyLoad(divId) {
+    var p = divId.split('_');
+    if (p.length != 0) {
+        if (p[p.length - 1] == 'n') {
+			var s = p[0].split('-');
+			if (s.length >= 4) {
+				var se = s[3];
+				if (se == 'baloncesto') {
+		            return ['m', 'r', 'rb', 'sd', 'si', 'f', 'f2', 'f3', '660x50'];
+				}
+			}
+        }
+    }
+    return [];
+}
+var notLazyLoaded = getNotLazyLoad(data.divId);
+
+var enableUELazyLoad = notLazyLoaded.length != 0;
+var observer = new IntersectionObserver(
+    function(entries, observer) {
+        //console.log('LazyLoad: in observer');
+        entries.forEach(function (entry) {
+            //if (entry.intersectionRatio > 0) {
+            if (entry.isIntersecting) {
+                //console.log('LazyLoad: observer entry', entry);
+                //var divParts = entry.target.id.split('_');
+                //var slotData = data.adSlots.find(function(e) { return divParts[1] === e.customTargeting.p[0] })
+                //observer.unobserve(entry.target);
+                var slotData = data.adSlots.find(function(e) { return entry.target.id.replace(/_\d+_/, "_") === e.divId })
+                if (slotData) {
+					var slot;
+					if (slotData.sizes) {
+						slot = googletag.defineSlot('/' + data.networkId + '/' + slotData.adUnit, slotData.sizes, entry.target.id);
+					} else {
+						slot = googletag.defineOutOfPageSlot('/' + data.networkId + '/' + slotData.adUnit, entry.target.id);
+					}
+                    if (slot) {
+                        console.log('LazyLoad: observer ', entry.target.id);
+                        for (var key in slotData.customTargeting) {
+                            if (slotData.customTargeting.hasOwnProperty(key)) {
+                                slot.setTargeting(key, slotData.customTargeting[key]);
+                            }
+                        }
+					    if (typeof Adomik !== 'undefined') {
+							slot.setTargeting('ad_group', Adomik.randomAdGroup());
+					    }
+                        slot.addService(googletag.pubads());
+                        googletag.cmd.push(function() {
+                            //googletag.display(entry.target.id);
+                            googletag.pubads().refresh([slot]);
+                        });
+                    } else {
+                        // refresh ???
+                        //console.log('LazyLoad: refresh ', entry.target.id);
+                        //var slots = googletag.pubads().getSlots().filter(function(e) { return (entry.target.id === e.getSlotElementId()) });
+                        //googletag.cmd.push(function() { googletag.pubads().refresh(slots); });
+                    }
+                } else {
+                    console.log('LazyLoad: divId not found ', entry.target.id);
+                }
+            }
+        })
+        //console.log('LazyLoad: out observer');
+    },
+    //{ root: null, rootMargin: '0px', threshold: 1 }
+    //{ root: null, rootMargin: '300px 0px 300px 0px', threshold: 0 }
+    { root: null, rootMargin: '50% 0px 50% 0px', threshold: 1 }
+);
+(function() {
+try{
+var ueseg=localStorage.getItem("dmpue_id");
+ueseg!==null? data.customTargeting.ueid=ueseg:data.customTargeting.ueid='NoUESeg';
+var ksegs=localStorage.getItem("dmpue_segs");
+ksegs!==null? data.customTargeting.ksegs=ksegs.split(','):data.customTargeting.ksegs='NoDefinido';
+}catch(err) {}
+})();
+
+window["ueDFPData"] = data;
+
+var adDomElements = [].slice.apply(document.querySelectorAll('div[id^='+data.divId+']'))
+    .map(function(e) {
+        return e.getAttribute('id');
+    });
+var divId = '';
+data.adSlots = data.adSlots.filter(function(adSlot){
+    divId = data.divId + '_' + adSlot.customTargeting.p.join('_');
+    divId += '_' + '5e3779ff22601d6a618b457d'
+    adSlot.divId = divId;
+    if (adDomElements.length > 0) {
+        return (adDomElements.indexOf(divId)!==-1);
+    } else {
+        return true;
+    }
+});
+data.adSlots.forEach(function (adSlot) {
+    // var slotIndex = i + 1;
+    var adUnit = adSlot.adUnit ? adSlot.adUnit : data.adUnit;
+    var slot;
+    divId = data.divId + '_' + adSlot.customTargeting.p.join('_');
+divId += '_' + '5e3779ff22601d6a618b457d'
+    adSlot.divId = divId;
+    adUnit = '/' + data.networkId + '/' + adUnit;
+    if (((typeof enableUELazyLoad === 'undefined') || !enableUELazyLoad) || (notLazyLoaded.indexOf(adSlot.customTargeting.p.join('_')) !== -1)) {
+        console.log('LazyLoad: SRA ', divId);
+    if (adSlot.sizes) {
+        slot = googletag.defineSlot(adUnit, adSlot.sizes, adSlot.divId);
+    } else {
+        slot = googletag.defineOutOfPageSlot(adUnit, adSlot.divId);
+    }
+
+    for (var key in adSlot.customTargeting) {
+        if (adSlot.customTargeting.hasOwnProperty(key)) {
+            slot.setTargeting(key, adSlot.customTargeting[key]);
+        }
+    }
+	
+    if (typeof Adomik !== 'undefined') {
+		slot.setTargeting('ad_group', Adomik.randomAdGroup());
+    }
+	
+    slot.addService(googletag.pubads());
+    } else {
+        console.log('LazyLoad: LL ', divId);
+        var t = document.querySelector('#' + divId);
+        if (t) {
+            observer.observe(t);
+        } else {
+            console.log('LazyLoad: div not found: ', divId);
+        }
+    }
+});
+document.querySelectorAll("[id^='div-gpt-ad-']").forEach(function (e) {
+    if (e.id.match(/div-gpt-ad-[a-z]+_[a-z]+_[a-z]+_\d+_[0-9a-f]{24}/)) {
+        console.log('LazyLoad: LL 2 ', e.id);
+        observer.observe(e);
+    }
+})
+
+if ((typeof DisableenableSingleRequest === 'undefined') || !DisableenableSingleRequest) {
+    googletag.pubads().enableSingleRequest();
+}
+
+for (var key in data.customTargeting) {
+    if (data.customTargeting.hasOwnProperty(key)) {
+        googletag.pubads().setTargeting(key, data.customTargeting[key]);
+    }
+}
+
+googletag.pubads().addEventListener('slotRenderEnded', function(event) {
+    if(event && event.slot) {
+        var slotElement = event.slot.getSlotElementId();
+        var slot = document.querySelector('#' + slotElement);
+        if (slot) {
+            if(event.isEmpty || !event.size || event.size.length <= 1 || event.size[0] <= 0 || event.size[1] <= 0) {
+                slot.setAttribute('style', 'display: none');
+            } else {
+                /** Cuando se cambie marca_style, hay que añadir esto y eliminar el sistema de reintentos con jQuery
+                var documentEvent = new CustomEvent('slotRenderEnded', {detail: {id: event.slot.getSlotElementId()}});
+                document.dispatchEvent(documentEvent);
+                */
+                var documentEvent = new CustomEvent('slotRenderEnded', {detail: {id: event.slot.getSlotElementId()}});
+                document.dispatchEvent(documentEvent);
+                slot.parentNode.classList.add('ready');
+                slot.setAttribute('style', 'display: block');
+                if (slotElement.indexOf('sticky') > 0) {
+                    var close_button = document.createElement('span');
+                    close_button.classList.add('close-button');
+                    close_button.classList.add('hidden');
+                    close_button.setAttribute('data-adv-id', slotElement);
+                    close_button.addEventListener('click', function(event){
+                        var slot_to_clear = event.currentTarget.getAttribute('data-adv-id');
+                        if (slot_to_clear) {
+                            var slot_found = googletag.pubads().getSlots().find(function(slot) { return slot.getSlotElementId() === slot_to_clear;});
+                            if (slot_found) {
+                                document.querySelector('#' + slot_to_clear).parentNode.classList.remove('ready');
+                                googletag.pubads().clear([slot_found]);
+                            }
+                        }
+                    });
+                    close_button.innerHTML = '<svg style="width:20px;" viewBox="0 0 24 24"><path d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"></path></svg>';
+                    slot.prepend(close_button);
+                    setTimeout(function() {
+                        slot.setAttribute('style', 'height:auto;');
+                        close_button.classList.remove('hidden');
+                    }.bind(this), 5000);
+                }
+                if (!event.isEmpty && event.size && event.size.length > 1 && (event.size[0] == 300 && event.size[1] == 299)) {
+                    slot.parentNode.classList.add('ue-c-ad--label-hidden');
+                }
+            }
+        }
+    }
+});
+
+googletag.pubads().enableAsyncRendering();
+if (((typeof gptIsDisableInitialLoad !== 'undefined') && gptIsDisableInitialLoad) || (typeof IsAPSEnabled !== 'undefined' && IsAPSEnabled)) {
+    googletag.pubads().disableInitialLoad();
+}
+
+if( window.ueUserContentGoogle !== undefined ){
+    if ( window.ueUserContentGoogle === true ) {
+        googletag.pubads().setRequestNonPersonalizedAds(0);
+    }else{
+        googletag.pubads().setRequestNonPersonalizedAds(1);
+    }
+}else{
+    googletag.pubads().disableInitialLoad();
+}
+if (typeof pbjs !== 'undefined') {
+	pbjs.que.push(function () {
+		pbjs.setTargetingForGPTAsync();
+	});
+}
+googletag.enableServices();
+    });
+    function amz() {
+    var ueConsentData = localStorage.getItem('ueConsentData');
+    apstag.init({
+        pubID: '3537',
+        adServer: 'googletag',
+        bidTimeout: 1e3,
+        gdpr: {
+            enabled: true,
+            consent: ueConsentData
+        }
+    });
+
+    var aps_data = {slots:[]};
+    googletag.destroySlots(googletag.pubads().getSlots().filter(function(x){ return x.getSlotElementId().indexOf('cts-') < 0 && !(x.getSlotElementId() in window)}));
+    googletag.pubads().getSlots().forEach(function(adSlot, i) {
+        var sizes = adSlot.getSizes();
+        if (sizes.length > 0) {
+            sizes = sizes.map(function(adSlotSize) {
+                    if (adSlotSize !== 'fluid') {
+		    	return [adSlotSize.getWidth(), adSlotSize.getHeight()];
+		    }
+                })
+                .filter(function(size) {
+		    if (size && size.length === 2) {
+                    	return (size[0] !== 1) && (size[1] !== 1);
+		    }
+                });
+            if (sizes.length > 0) {
+                aps_data.slots.push({
+                    slotID: adSlot.getSlotElementId(),
+                    slotName: adSlot.getAdUnitPath(),
+                    sizes: sizes
+                });
+            }
+        }
+    });
+    apstag.fetchBids(aps_data, function(bids) {
+        googletag.cmd.push(function() {
+            apstag.setDisplayBids();
+            googletag.pubads().refresh();
+        });
+    });
+}
+amz = (function(amz) {
+    var DOMContentLoadedReady = false;
+    window.addEventListener('DOMContentLoaded', function() {
+        DOMContentLoadedReady = true;
+    });
+    return function() {
+        DOMContentLoadedReady ? amz() : window.addEventListener('DOMContentLoaded', amz)
+    };
+})(amz);
+if (window.ueUserContentGoogle !== undefined) {
+  googletag.cmd.push(function () {
+    if (typeof IsAPSEnabled !== 'undefined' && IsAPSEnabled) {
+        amz();
+    }
+  });
+}else{
+    window.addEventListener('ueConsentChanged', function (event) {
+        googletag.cmd.push(function () {
+            if(  event.detail.consents.vendors.google === true ){
+                googletag.pubads().setRequestNonPersonalizedAds(0);
+            }else{
+                googletag.pubads().setRequestNonPersonalizedAds(1);
+            }
+            if (typeof IsAPSEnabled !== 'undefined' && IsAPSEnabled) {
+                amz();
+            }else{
+                googletag.pubads().refresh();
+            }
+        });
+    }, false);
+}
+</script>
+<aside class="content-ad"><div class="ad-item-f"><div id='div-gpt-ad-nfl_a_f_5e3779ff22601d6a618b457d' class="ad-item"><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('div-gpt-ad-nfl_a_f_5e3779ff22601d6a618b457d');});</script></div></div></aside><div class="skin-ad"></div><div class="container-ad"><aside class="content-ad ue-c-ad--label"><div id='div-gpt-ad-nfl_a_m_5e3779ff22601d6a618b457d' class="ad-item"><script type='text/javascript'>googletag.cmd.push(function(){googletag.display('div-gpt-ad-nfl_a_m_5e3779ff22601d6a618b457d');});</script></div></aside></div><div class="breadcrumbs-gallery-container"><div class="gallery-content" id="content"><div><header class="gallery-cover-site-header"><div class="gallery-cover-site-header__branding"><a href="https://www.marca.com" class="gallery-cover-site-header__branding__link uec-block-link"><span class="uec-hidden-content">Logo</span></a><a href="https://www.marca.com" class="gallery-site-header__back"><i class="icon-gallery-back"></i></a></div></header><main><article itemscope="" itemtype="http://schema.org/ImageGallery" class="gallery-cover-article"><header class="gallery-cover-article__header"><h2 class="gallery-cover-article__kicker">Final NFL</h2><h1 class="gallery-cover-article__heading" itemprop="headline">Shakira y Jennifer Lopez, pasi�n latina en el descanso de la Super Bowl</h1><p class="gallery-cover-article__author" itemprop="author">
+Por:AFP</p><time datetime="2020-02-03" itemprop="dateModified" class="gallery-cover-article__datetime">Actualizado:
+<span class="fecha">03-02-2020</span><span class="hora">05:28 horas</span></time><meta itemprop="datePublished" content="2020-02-03"/><meta itemscope="" itemprop="mainEntityOfPage" itemType="https://schema.org/WebPage" itemid="Canonical"/></header><figure class="gallery-cover-article__multimedia" itemprop="image" itemscope="" itemtype="https://schema.org/ImageObject"><meta itemprop="width" content="990"><meta itemprop="height" content="557"><img itemprop="url" src="https://phantom-marca.unidadeditorial.es/502e34bfe7ae751f5621b4a9560e6df5/assets/multimedia/imagenes/2020/02/03/15806947875921.jpg" class="gallery-cover-article__multimedia__item" alt=""></figure><nav class="gallery-cover-article__nav"><a href="https://www.marca.com/nfl/album/2020/02/03/5e3779ff22601d6a618b457d_1.html" class="gallery-cover-article__nav__link">Ver galer�a <i class="icon-gallery-forward"></i></a></nav><p itemprop="description" class="gallery-cover-article__description">Jennifer Lopez y Shakira, las dos divas de la m�sica latina fueron las encargadas de poner el espect�culo en el descanso de la Super Bowl LIV con un concierto expr�s lleno de adrenalina y sensualidad.</p><span itemprop="publisher" itemscope="" itemtype="https://schema.org/Organization"><meta itemprop="name" content="MARCA"></span></article></main></div></div><div class="breadcrumbs"><div class="container-header"><ul itemscope="" itemtype="http://schema.org/BreadcrumbList" class="tab-breadcrumb js-containerbreadcrumb"><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="home"><a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" title="MARCA.com" href="https://www.marca.com?intcmp=MENUMIGA&s_kw=home" id="bread-0"><span itemprop="name">Inicio</span></a><span class="arrow"></span><meta itemprop="position" content="1"/></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="first-level"><span class="hidden-content">Volver a:</span><a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="https://www.marca.com/polideportivo.html?intcmp=MENUMIGA&s_kw=polideportivo" id="bread-1"><span itemprop="name">Polideportivo</span></a><span class="arrow"></span><meta itemprop="position" content="2"/></li><li itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem" class="second-level"><a itemscope="" itemtype="http://schema.org/Thing" itemprop="item" href="https://www.marca.com/nfl.html?intcmp=MENUMIGA&s_kw=nfl" id="bread-2"><span itemprop="name">NFL</span></a><span class="arrow"></span><meta itemprop="position" content="3"/></li></ul><p class="tab-heading">Shakira y Jennifer Lopez, pasi�n latina en el descanso de la Super Bowl</p></div></div></div><script>jQuery.noConflict();</script><script>jQuery("head").append('<link href="https://e00-marca.uecdn.es/assets/v16/css/print.css" type="text/css" rel="stylesheet">');</script><script language="JavaScript" type="text/javascript" data-ue-omniture><!--
+var s = {};var pageName = "https://www.marca.com/nfl/album/2020/02/03/5e3779ff22601d6a618b457d.html";s.pageType="";
+s.pageName="https://www.marca.com/nfl/album/2020/02/03/5e3779ff22601d6a618b457d.html";s.channel="nfl";
+
+s.prop1="nfl";
+s.prop2="";
+s.prop3="";
+s.prop4="";
+s.prop5="";
+s.prop6="";s.prop7="marca.com";    s.prop10="5e3779ff22601d6a618b457d";
+    s.prop11="Shakira y Jennifer Lopez, pasi�n latina en el descanso de la Super Bowl-5e3779ff22601d6a618b457d";s.hier1="marca.com|nfl|nfl";                                                                                s.prop27="web";
+
+                
+    s.list2="NFL,Polideportivo,Fotogaler�as,Buzz";
+s.prop28="0|0";
+
+s.prop29="NFL,Polideportivo,Fotogaler�as,Buzz";
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        s.prop30="imagenes";
+                        s.prop52 = "origen";
+        s.prop53="";
+        s.prop32="album";
+s.prop33="nfl";
+
+    s.prop31="";
+    s.prop34="pc";
+    s.prop35="";
+
+        s.prop36="";
+            s.prop39="";
+    s.prop55="";
+s.prop75="AFP";
+/* Conversion Variables */
+s.eVar1=s.channel;
+s.eVar2=s.prop1;
+s.eVar3=s.prop2;
+s.eVar4=s.prop3;
+
+s.eVar11=s.prop11;
+    s.eVar5=s.prop5;
+    s.eVar35=s.prop4;
+    s.eVar36=s.prop7;
+    s.eVar31=s.prop10;
+    s.eVar45=s.prop32;
+
+s.eVar27=s.prop27;
+s.eVar28=s.prop28;
+s.eVar29=s.prop29;
+s.eVar30=s.prop30;
+s.eVar33=s.prop33;
+s.eVar34=s.prop34;
+s.eVar75=s.prop75;
+    s.eVar39=s.prop39;
+            s.eVar52=s.prop52;
+        s.eVar80=s.prop53;
+        s.eVar84=s.prop35;
+        s.eVar85=s.prop36;
+    var s_omniture = s;
+<!-- ==== pageName="https://www.marca.com/nfl/album/2020/02/03/5e3779ff22601d6a618b457d.html" ==== --><!-- ==== pageType="" ==== --><!-- ==== channel="nfl" ==== --><!-- ==== prop1="nfl" ==== --><!-- ==== prop3="" ==== --><!-- ==== prop4="" ==== --><!-- ==== prop5="" ==== --><!-- ==== prop6="" ==== --><!-- ==== prop7="marca.com" ==== --><!-- ==== prop10="5e3779ff22601d6a618b457d" ==== --><!-- ==== prop11="Shakira y Jennifer Lopez, pasi�n latina en el descanso de la Super Bowl-5e3779ff22601d6a618b457d" ==== --><!-- ==== hier1="marca.com|nfl|nfl" ==== --><!-- ==== prop29="NFL,Polideportivo,Fotogaler�as,Buzz" ==== --><!-- ==== list2="NFL,Polideportivo,Fotogaler�as,Buzz" ==== --><!-- ==== prop30="imagenes" ==== --><!-- ==== prop31="" ==== --><!-- ==== prop32="album" ==== --><!-- ==== prop35="" ==== --><!-- ==== prop36="" ==== --><!-- ==== prop39="" ==== --><!-- ==== prop55="" ==== --><!-- ==== prop75="AFP" ==== -->
+/************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+//--></script><script type="text/javascript">function DM_prepClient(csid,client){client.DM_cat("nfl > nfl > album");}</script><script src="https://e00-marca.uecdn.es/assets/js/v2/react-gallery.js" type="text/javascript"></script><script>ueReact.createGallery({refreshValue:4,adSlot:"div-gpt-ad-nfl_a_r_5e3779ff22601d6a618b457d",startIndex:-1,url:"https://e00-marca.uecdn.es/nfl/album/2020/02/03/5e3779ff22601d6a618b457d.json",siteUrl:"",siteName:"",language:"es",sizeImg:1300},document.getElementById('content'));</script><script>if(typeof gptIsDisableInitialLoad!=='undefined'&&gptIsDisableInitialLoad){if(typeof IsAPSEnabled==='undefined'||!IsAPSEnabled){googletag.cmd.push(function(){googletag.pubads().refresh();});}}</script>
+<!-- SiteCatalyst code version: H.21.  Copyright 1996-2010 Adobe, Inc. All Rights Reserved More info available at /web/20151202224104/http://www.omniture.com -->
+<script type="text/javascript">_satellite.pageBottom();</script>
+<script language="JavaScript" type="text/javascript"><!--
+if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'!-'+'-')
+//--></script><noscript><img src="http://metrics.el-mundo.net/b/ss/uevistatest/1/H.21--NS/0"
+height="1" width="1" border="0" alt="" /></noscript><!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code version: H.21. -->
+</body></html>

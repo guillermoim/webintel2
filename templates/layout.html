@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <title>Search It!</title>
+</head>
+<body>
+  {%include 'includes/_navbar.html'%}
+  <div class="container">
+  {% block body %}{% endblock %}
+  </div>
+
+  <footer class="footer">
+      <div class="container">
+        <p class="text-muted">This application has been developped as a project for Web intelligence course <br>
+          part of Master in Intelligent Interactive Systems @ Universitat Pompeu Fabra.</p>
+        <p class="text-muted">March 2020.</p>
+        <p class="text-muted">Guillermo Infante Molina, Mario Acera, Cristian Ramírez.</p>
+      </div>
+  </footer>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

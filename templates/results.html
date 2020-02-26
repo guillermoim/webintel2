@@ -1,0 +1,26 @@
+{%extends 'layout.html'%}
+
+{% block body %}
+
+  <div class="container">
+    <div class="jumbotron">
+      <h3>Search results</h3>
+      <p>You have search for: {{form.search.data}}</p>
+
+    </div>
+
+    <h5>Links</h5>
+    <div>
+      {%for item in results%}
+      <div>{{item}}</div>
+      {% endfor %}
+    </div>
+
+
+  </div>
+
+
+
+  <br>
+
+{% endblock %}
